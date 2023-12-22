@@ -9,12 +9,12 @@ This reserach focuses on the water quality of Delaware River basin which provide
   
 ## Approaches & Methods 
 
-- *Data collection*: [Jupyter Notebooks](https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Delaware.ipynb,https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Zenodo.ipynb)
+- *Data collection*: [Zenodo](https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Zenodo.ipynb) & [Delaware](https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Delaware.ipynb)
 - [Global River Water Archive](https://zenodo.org/record/5097437#.YyuqunbMKUl) and [United States Geological Survey Catalog](https://www.sciencebase.gov/catalog/item/5e010424e4b0b207aa033d8c) - containing daily values of water parameter variables - dissolved oxygen, fecal coliform, pH, specific conductance, temperature, turbidity, nitrogen, phosphates, alkalinity, chloride & suspended solids.
 - The Water Quality Index (WQI) is calculated using these parameters, which is the target variable.  
 - The workflow 
 ![Workflow](https://github.com/swethasubu93/Analytical-Processing/assets/109064336/8259509f-e1b1-44a9-872d-20b29dd560aa)
-- *Data Preprocessing & Integration*:
+- *Data Preprocessing & Integration*: [Cleaning](https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/DataCleaning%26EDA.ipynb) & [Final_data](https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Final_dataset_creation.ipynb)
     - Unneccesary columns dropped
     - column names changed for uniformity
     - datasets are integrated
