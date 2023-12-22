@@ -9,7 +9,8 @@ This reserach focuses on the water quality of Delaware River basin which provide
   
 ## Approaches & Methods 
 
-- *Data collection*: Global River Water Archive (https://zenodo.org/record/5097437#.YyuqunbMKUl) and United States Geological Survey Catalog (https://www.sciencebase.gov/catalog/item/5e010424e4b0b207aa033d8c) - containing daily values of water parameter variables - dissolved oxygen, fecal coliform, pH, specific conductance, temperature, turbidity, nitrogen, phosphates, alkalinity, chloride & suspended solids.
+- *Data collection*: [Jupyter Notebooks](https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Delaware.ipynb,https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Zenodo.ipynb)
+- [Global River Water Archive](https://zenodo.org/record/5097437#.YyuqunbMKUl) and [United States Geological Survey Catalog](https://www.sciencebase.gov/catalog/item/5e010424e4b0b207aa033d8c) - containing daily values of water parameter variables - dissolved oxygen, fecal coliform, pH, specific conductance, temperature, turbidity, nitrogen, phosphates, alkalinity, chloride & suspended solids.
 - The Water Quality Index (WQI) is calculated using these parameters, which is the target variable.  
 - The workflow 
 ![Workflow](https://github.com/swethasubu93/Analytical-Processing/assets/109064336/8259509f-e1b1-44a9-872d-20b29dd560aa)
@@ -22,7 +23,7 @@ This reserach focuses on the water quality of Delaware River basin which provide
     - dataset is pivoted
     - handled misisng values by interpolation & median techniques
     - correlation analysis and PCA.
-- *Model Development*:
+- *Model Development*: [Jupyter Notebook](https://github.com/swethasubu93/Water-Quality-Analysis/blob/main/Code/Models.ipynb)
   - Models trained - SVM, Decision Tree, XGBoost, Artificial Neural Network
   - The model input were of three types - features after 1) PCA , 2) correlation analysis and 3) all parameters.
 
